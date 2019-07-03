@@ -1,0 +1,426 @@
+{
+  "settings": {
+    "name": "linktree Instagram Zalam BV Bloemengroothandel",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "portfoliom4",
+      "title": "PortfolioM4",
+      "styling": {
+        "primaryColor": "#ffffff",
+        "secondaryColor": "#ff4100",
+        "successColor": "#ffbc00",
+        "infoColor": "#ff4100",
+        "warningColor": "#0a67a3",
+        "dangerColor": "#acd910",
+        "mainFont": "Dosis",
+        "display1Font": "Open Sans",
+        "display1Size": 3.5,
+        "display2Font": "Dosis",
+        "display2Size": 2,
+        "display5Font": "Dosis",
+        "display5Size": 1.4,
+        "display7Font": "Dosis",
+        "display7Size": 1,
+        "display4Font": "Open Sans",
+        "display4Size": 0.8,
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true,
+        "arrowColor": "#000000"
+      },
+      "additionalSetColors": [
+        "#fcff00",
+        "#f8f000",
+        "#dbad54",
+        "#263b70",
+        "#526c3c",
+        "#ad4482",
+        "#acd910"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "siteFonts": [
+      {
+        "css": "'Zilla Slab Highlight', display",
+        "name": "Zilla Slab Highlight",
+        "url": "https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:400,700"
+      },
+      {
+        "css": "'Open Sans', sans-serif",
+        "name": "Open Sans",
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+      }
+    ],
+    "favicon": "@PROJECT_PATH@/assets/images/ws-logo.jpg",
+    "noImageResize": "",
+    "cookiesAlert": "",
+    "gdpr": "",
+    "google-analytics": "",
+    "html_before": "",
+    "headbody": "",
+    "botbody": "",
+    "siteUrl": "http://www.zalam.nl",
+    "versionFirst": "4.7.7",
+    "uniqCompNum": 15,
+    "versionPublish": "4.10.5",
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "sitemapSwitcherAuto": "on",
+    "witsec-white-label": "on",
+    "seo-meta": "",
+    "global-footer": "",
+    "witsec-form-subject": "Mobirise Form",
+    "witsec-language": "nl",
+    "sitemapSwitcher": "on"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Link in de Bio LAst Minute Dj Boeken - Compleet Bruiloft en Feest DJ",
+        "meta_descr": "Linktree voor in de Bio van Instagram - Last Minute Dj Boeken - Een compleet feest met een volle dansvloer. Voor je huwelijk, bruiloft of ander feest.",
+        "header_custom": "<meta name=\"keywords\" content=\"bruiloften dj,bruiloft dj,dj inhuren,dj bruiloftdj,voor bruiloften,dj trouwfeest,dj huwelijk,the perfectwedding,perfect wedding,bruiloften dj,drive in show,bruiloft dj kosten\">\n\n",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section class=\"content4\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"82\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/doek-zalam-v3-1-1820x652.jpg\" width=\"1400\" alt=\"logo zalam bv bloemengroothandel in ede\" title=\"logo zalam bv bloemengroothandel in ede\">\n            </div>\n    </figure>\n</section>",
+          "_cid": "qUmyUFHMzl",
+          "_anchor": "image2-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            ".stats-item:hover span": {
+              "color": "@itemHover"
+            },
+            ".stats-item": {
+              "padding": "80px 20px"
+            },
+            ".stats-item:nth-child(2n)": {
+              "background-color": "@blockColor1"
+            },
+            ".stats-item:nth-child(odd)": {
+              "background-color": "@blockColor2"
+            },
+            ".stats-item > span": {
+              "transition": "all 0.3s ease-in-out"
+            },
+            ".mbr-iconfont": {
+              "font-size": "50px"
+            },
+            ".heading": {
+              "margin": "20px 0",
+              "color": "#232323"
+            },
+            ".container": {
+              "min-width": "100%",
+              "padding": "0",
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px) and (min-width: 577px)": {
+              ".stats-item:first-child": {
+                "background": "@blockColor1"
+              },
+              ".stats-item:nth-child(2n)": {
+                "background": "@blockColor2"
+              },
+              ".stats-item:nth-child(0n+3)": {
+                "background": "@blockColor2 none repeat scroll 0 center"
+              },
+              ".stats-item:last-child": {
+                "background": "@blockColor1"
+              }
+            },
+            ".counter": {
+              "text-align": "center",
+              "color": "#000000"
+            },
+            ".mbr-card-title,.mbr-iconfont": {
+              "text-align": "center",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "features3",
+          "_customHTML": "<section group=\"Features\" class=\"counters\" plugins=\"ViewportChecker\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"swIcon\" ckecked>\n        <select title=\"Cards Count\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n           <option value=\"3\" selected>3</option>\n           <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icon Hover\" name=\"itemHover\" value=\"#ffbc00\" condition=\"swIcon\">\n        <input type=\"color\" title=\"Block Сolor 1\" name=\"blockColor1\" value=\"#ad4482\">\n        <input type=\"color\" title=\"Block Сolor 2\" name=\"blockColor2\" value=\"#acd910\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center align-center\">\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-class=\"{'col-md-3': cardsAmount == '4','col-md-4': cardsAmount == '3','col-md-6': cardsAmount =='2', 'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-users\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><a href=\"http://www.zalam.nl\"><b>WEBSITE</b></a></h2>\n                <h3 class=\"count counter mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-2\">37</h3>\n            </div>\n\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-if=\"cardsAmount>1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-md-4': cardsAmount == '3',\n                             'col-md-6': cardsAmount =='2',\n                             'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-rocket\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><a href=\"http://www.zalam.nl/contact.php\"><b>WEBSHOP AANVRAAG</b></a></h2>\n                <h3 class=\"count counter mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-2\">13</h3>\n            </div>\n\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-if=\"cardsAmount>2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-md-4': cardsAmount == '3',\n                             'col-md-6': cardsAmount =='2',\n                             'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-clock\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><a href=\"https://wa.me/+31650469346\"><b>WHATSAPP</b></a></h2>\n                <h3 class=\"count counter mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-2\">900</h3>\n            </div>\n\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-if=\"cardsAmount>3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-md-4': cardsAmount == '3',\n                             'col-md-6': cardsAmount =='2',\n                             'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-magic-stick\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><b>\n                    PRAAT GROEP PIGHEADS</b></h2>\n                <h3 class=\"count counter mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-2\">40</h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "features3-d",
+          "_isUserblock": true,
+          "_sourceTheme": "portfoliom4",
+          "_cid": "rrcf8b6jqv",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            ".stats-item:hover span": {
+              "color": "@itemHover"
+            },
+            ".stats-item": {
+              "padding": "80px 20px"
+            },
+            ".stats-item:nth-child(2n)": {
+              "background-color": "@blockColor1"
+            },
+            ".stats-item:nth-child(odd)": {
+              "background-color": "@blockColor2"
+            },
+            ".stats-item > span": {
+              "transition": "all 0.3s ease-in-out"
+            },
+            ".mbr-iconfont": {
+              "font-size": "50px"
+            },
+            ".heading": {
+              "margin": "20px 0",
+              "color": "#232323"
+            },
+            ".container": {
+              "min-width": "100%",
+              "padding": "0",
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px) and (min-width: 577px)": {
+              ".stats-item:first-child": {
+                "background": "@blockColor1"
+              },
+              ".stats-item:nth-child(2n)": {
+                "background": "@blockColor2"
+              },
+              ".stats-item:nth-child(0n+3)": {
+                "background": "@blockColor2 none repeat scroll 0 center"
+              },
+              ".stats-item:last-child": {
+                "background": "@blockColor1"
+              }
+            },
+            ".counter": {
+              "text-align": "center",
+              "color": "#000000"
+            },
+            ".mbr-card-title,.mbr-iconfont": {
+              "text-align": "center",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "features3",
+          "_customHTML": "<section group=\"Features\" class=\"counters\" plugins=\"ViewportChecker\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"swIcon\" ckecked>\n        <select title=\"Cards Count\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n           <option value=\"3\" selected>3</option>\n           <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icon Hover\" name=\"itemHover\" value=\"#ffbc00\" condition=\"swIcon\">\n        <input type=\"color\" title=\"Block Сolor 1\" name=\"blockColor1\" value=\"#acd910\">\n        <input type=\"color\" title=\"Block Сolor 2\" name=\"blockColor2\" value=\"#ad4482\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center align-center\">\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-class=\"{'col-md-3': cardsAmount == '4','col-md-4': cardsAmount == '3','col-md-6': cardsAmount =='2', 'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-users\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><a href=\"https://business.facebook.com/Zalambloemengroothandel\"><b>FACEBOOK</b></a></h2>\n                <h3 class=\"count counter mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-2\">37</h3>\n            </div>\n\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-if=\"cardsAmount>1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-md-4': cardsAmount == '3',\n                             'col-md-6': cardsAmount =='2',\n                             'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-rocket\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><a href=\"https://zalam.freshportal.nl/en/page/index/index/WPA_ID/5/\"><b>ZALAM WEBSHOP</b></a></h2>\n                <h3 class=\"count counter mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-2\">13</h3>\n            </div>\n\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-if=\"cardsAmount>2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-md-4': cardsAmount == '3',\n                             'col-md-6': cardsAmount =='2',\n                             'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-clock\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><a href=\"tel:+31318640577\"><b>TELEFOON NUMMER</b></a></h2>\n                <h3 class=\"count counter mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-2\">900</h3>\n            </div>\n\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-if=\"cardsAmount>3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-md-4': cardsAmount == '3',\n                             'col-md-6': cardsAmount =='2',\n                             'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-magic-stick\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><b>\n                    PRAAT GROEP PIGHEADS</b></h2>\n                <h3 class=\"count counter mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-2\">40</h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "features3-8",
+          "_isUserblock": true,
+          "_sourceTheme": "portfoliom4",
+          "_cid": "qUmCH8Q344",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            ".stats-item:hover span": {
+              "color": "@itemHover"
+            },
+            ".stats-item": {
+              "padding": "80px 20px"
+            },
+            ".stats-item:nth-child(2n)": {
+              "background-color": "@blockColor1"
+            },
+            ".stats-item:nth-child(odd)": {
+              "background-color": "@blockColor2"
+            },
+            ".stats-item > span": {
+              "transition": "all 0.3s ease-in-out"
+            },
+            ".mbr-iconfont": {
+              "font-size": "50px"
+            },
+            ".heading": {
+              "margin": "20px 0",
+              "color": "#232323"
+            },
+            ".container": {
+              "min-width": "100%",
+              "padding": "0",
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px) and (min-width: 577px)": {
+              ".stats-item:first-child": {
+                "background": "@blockColor1"
+              },
+              ".stats-item:nth-child(2n)": {
+                "background": "@blockColor2"
+              },
+              ".stats-item:nth-child(0n+3)": {
+                "background": "@blockColor2 none repeat scroll 0 center"
+              },
+              ".stats-item:last-child": {
+                "background": "@blockColor1"
+              }
+            },
+            ".counter": {
+              "text-align": "center",
+              "color": "#000000"
+            },
+            ".mbr-card-title,.mbr-iconfont": {
+              "text-align": "center",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "features3",
+          "_customHTML": "<section group=\"Features\" class=\"counters\" plugins=\"ViewportChecker\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"swIcon\" ckecked>\n        <select title=\"Cards Count\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n           <option value=\"3\" selected>3</option>\n           <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icon Hover\" name=\"itemHover\" value=\"#ffbc00\" condition=\"swIcon\">\n        <input type=\"color\" title=\"Block Сolor 1\" name=\"blockColor1\" value=\"#ad4482\">\n        <input type=\"color\" title=\"Block Сolor 2\" name=\"blockColor2\" value=\"#acd910\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center align-center\">\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-class=\"{'col-md-3': cardsAmount == '4','col-md-4': cardsAmount == '3','col-md-6': cardsAmount =='2', 'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-users\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><b><a href=\"mailto:info@zalam.nl\">MAIL</a></b></h2>\n                <h3 class=\"count counter mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-2\">37</h3>\n            </div>\n\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-if=\"cardsAmount>1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-md-4': cardsAmount == '3',\n                             'col-md-6': cardsAmount =='2',\n                             'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-rocket\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><a href=\"http://www.zalam.nl/vacature.php\"><b>WERKEN BIJ ZALAM</b></a></h2>\n                <h3 class=\"count counter mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-2\">13</h3>\n            </div>\n\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-if=\"cardsAmount>2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-md-4': cardsAmount == '3',\n                             'col-md-6': cardsAmount =='2',\n                             'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-clock\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><b><a href=\"mailto:info@zalam.nl\">LOGIN AANVRAAG WEBSHOP</a></b></h2>\n                <h3 class=\"count counter mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-2\">900</h3>\n            </div>\n\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-if=\"cardsAmount>3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-md-4': cardsAmount == '3',\n                             'col-md-6': cardsAmount =='2',\n                             'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-magic-stick\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><b>\n                    PRAAT GROEP PIGHEADS</b></h2>\n                <h3 class=\"count counter mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-2\">40</h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "features3-d",
+          "_isUserblock": true,
+          "_sourceTheme": "portfoliom4",
+          "_cid": "rvcsOkIGQc",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "a:link": {
+              "text-decoration": "none"
+            },
+            ".icon-transition span": {
+              "padding": "0.1rem 0.9rem",
+              "border-radius": "50%",
+              "color": "rgb(255, 255, 255)",
+              "display": "block",
+              "height": "3em",
+              "line-height": "3em",
+              "width": "3em",
+              "background": "@circleColor none repeat scroll 0 0",
+              "-webkit-transition": "all 0.3s ease-out 0s",
+              "transition": "all 0.3s ease-out 0s",
+              "font-size": "14px"
+            },
+            ".icon-transition span:hover": {
+              "background-color": "@circleHover"
+            },
+            ".social-media": {
+              "ul": {
+                "margin": "0",
+                "padding": "0",
+                "margin-bottom": "8px",
+                "li": {
+                  "padding": "4px",
+                  "display": "inline-block"
+                }
+              }
+            },
+            ".foot-menu": {
+              "-webkit-flex-direction": "row",
+              "flex-direction": "row",
+              "margin": "0",
+              "margin-bottom": "8px",
+              "padding": ".6em 0",
+              "> li": {
+                "font-size": "14px",
+                "padding": "0",
+                "display": "inline-block",
+                ".rhombus": {
+                  "width": "0",
+                  "height": "0",
+                  "right": "4px",
+                  "border": "4px solid transparent",
+                  "border-bottom-color": "@dotColor",
+                  "position": "relative",
+                  "top": "-19px",
+                  "&::after": {
+                    "width": "0",
+                    "height": "0",
+                    "content": "''",
+                    "position": "absolute",
+                    "left": "-4px",
+                    "top": "4px",
+                    "border": "4px solid transparent",
+                    "border-top-color": "@dotColor"
+                  }
+                }
+              },
+              "li": {
+                "a": {
+                  "font-family": "'OpenSans', sans-serif",
+                  "display": "inline-block",
+                  "letter-spacing": "2px",
+                  "padding": "0 10px"
+                }
+              }
+            },
+            ".plan-title,.text-letter": {
+              "-webkit-transition": "all 0.3s ease-out 0s",
+              "transition": "all 0.3s ease-out 0s",
+              "font-weight": "600"
+            },
+            ".plan-title": {
+              "color": "#444444"
+            },
+            "@media (max-width: 767px)": {
+              ".foot-menu": {
+                "padding": "15px 1rem"
+              }
+            },
+            ".mbr-section-title span": {
+              "color": "#ffbc00"
+            },
+            ".mbr-text": {
+              "color": "#ad4482"
+            },
+            ".mbr-section-title": {
+              "color": "#ad4482"
+            }
+          },
+          "_name": "footer1",
+          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes,Socicon\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ad4482\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#acd910\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Dots Color\" name=\"dotColor\" value=\"#ad4482\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img_20190620_162427-lightroom%20-3456%20x%203456-1200x1200.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n       <div class=\"container text-center\">\n            <div class=\"col-md-12 col-sm-12\">\n              <h1 mbr-if=\"showTitle\" class=\"plan-title mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\">Openingstijden\n<div>\n</div><div>Ma. 06.00 - 15.00 uur\n</div><div>Di.  06.00 - 20.30 uur\n</div><div>Wo. 06.00 - 15.00 uur\n</div><div>Do. 06.00 - 20.30 uur\n</div><div>Vr.  06.00 - 15.00 uur\n</div><div>Za. 06.00 - 09.30 uur</div></h1>\n            </div>\n            <div class=\"social-media col-md-12 col-sm-12\" mbr-if=\"showIcons\">\n                <ul>\n                    <li mbr-if=\"iconsCount > 0\">\n                      <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont fa-thumbs-up fa\" style=\"color: rgb(172, 217, 16); fill: rgb(172, 217, 16); font-size: 38px;\"></span>\n                      </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 1\">\n                      <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\">\n                        </span>\n                      </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 2\">\n                      <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-linkedin socicon\">\n                        </span>\n                      </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 3\">\n                      <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\">\n                        </span>\n                      </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 4\">\n                      <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-rss socicon\" style></span>\n                      </a>\n                    </li>\n                 </ul>\n            </div>\n            <div class=\"row justify-content-center\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\"></li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\"></li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\"><br><br>\n                    </li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\"></li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\"></li>\n                </ul>\n            </div>\n            <div class=\"row\">\n                <p class=\"footer-text col-md-12 col-sm-12 mbr-fonts-style mbr-text\" mbr-if=\"showText\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-text\"><b>Groothandelscentrum Plantion\n<br>Wellensiekstraat 4\n<br>6718 XZ Ede\n</b><br></p>\n            </div>\n       </div>\n\n</section>",
+          "_cid": "rvcEcVeQgT",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "footer1-e"
+        }
+      ]
+    }
+  }
+}
