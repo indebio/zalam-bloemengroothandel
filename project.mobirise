@@ -86,8 +86,10 @@
     "spellingSwitch": true,
     "imageResize": true,
     "site_lang": "nl",
-    "publishChangesOnly": true,
-    "chatbutton": {}
+    "publishChangesOnly": false,
+    "chatbutton": {},
+    "mbrsiteDomain": "zw3yrk3lot",
+    "witsec-mailform": false
   },
   "pages": {
     "index.html": {
@@ -95,10 +97,10 @@
         "main": true,
         "title": "Zalam - Bloemengroothandel en commisionars - Ede - ghc Plantion",
         "meta_descr": "Linktree voor in de Bio van Instagram - Zalam BV Bloemengroothandel & commisionaarss in Ede. Bloemen veiling Plantion (GHC PLANTION)",
-        "header_custom": "<meta name=\"keywords\" content=\"bloemengroothandel, instagram, zalam, bloemen, FIRSFLOORDEC, indebio, bloemen commisionairs\">\n\n",
+        "header_custom": "<meta name=\"keywords\" content=\"bloemengroothandel, instagram, zalam, bloemen, FIRSFLOORDECO, indebio, bloemen commisionairs\">\n\n",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@assets/images/doek%20zalam%20v3-1-1820x652.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/doek-zalam-v3-1-1820x652.jpg"
       },
       "components": [
         {
