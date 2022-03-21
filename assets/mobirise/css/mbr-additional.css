@@ -629,7 +629,7 @@ section.lazy-placeholder:after {
 .cid-qUmyUFHMzl {
   padding-top: 15px;
   padding-bottom: 15px;
-  background: #ffffff;
+  background: #ad4482;
 }
 .cid-qUmyUFHMzl .image-block {
   margin: auto;
@@ -639,14 +639,104 @@ section.lazy-placeholder:after {
     width: 100% !important;
   }
 }
-.cid-sg93EGElR9 {
-  padding-top: 30px;
-  padding-bottom: 10px;
-  background-image: url("../../../assets/images/44tekengebied-1-kopiediversen-ook-groen-1200x1200.jpeg");
+.cid-t0L67Qnjtz {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("../../../assets/images/2020-05-07-zalam-61-1200x800.jpg");
 }
-.cid-sg93EGElR9 .mbr-overlay {
-  background-color: #ad4482;
-  background: linear-gradient(90deg, #ad4482, #000000);
+.cid-t0L67Qnjtz .row {
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .cid-t0L67Qnjtz .col-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .cid-t0L67Qnjtz .col-text {
+    padding: 30px;
+  }
+}
+.cid-t0L67Qnjtz .col-form {
+  padding: 0;
+}
+@media (max-width: 991px) {
+  .cid-t0L67Qnjtz .col-form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .cid-t0L67Qnjtz .col-form {
+    padding: 30px;
+    min-height: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .cid-t0L67Qnjtz .col-form {
+    max-height: 440px;
+  }
+}
+.cid-t0L67Qnjtz .text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media (max-width: 767px) {
+  .cid-t0L67Qnjtz .text-wrapper {
+    text-align: center !important;
+  }
+}
+.cid-t0L67Qnjtz .mbr-section-title {
+  color: #000000;
+  margin-bottom: 24px;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .cid-t0L67Qnjtz .mbr-section-title {
+    text-align: center !important;
+  }
+}
+.cid-t0L67Qnjtz .mbr-text {
+  letter-spacing: inherit;
+  color: #ffffff;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .cid-t0L67Qnjtz .mbr-text {
+    text-align: center !important;
+  }
+}
+.cid-t0L67Qnjtz .text-user {
+  width: 100%;
+  margin-top: 20px;
+}
+.cid-t0L67Qnjtz .name-text {
+  color: #222222;
+  width: 100%;
+}
+.cid-t0L67Qnjtz .prof-text {
+  color: #555555;
+  width: 100%;
+}
+.cid-t0L67Qnjtz .btn-container {
+  width: 100%;
+  margin-top: 11px;
+}
+@media (max-width: 767px) {
+  .cid-t0L67Qnjtz .mbr-section-btn {
+    text-align: center !important;
+  }
+}
+@media (max-width: 575px) {
+  .cid-t0L67Qnjtz .mbr-section-btn {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cid-t0L67Qnjtz .mbr-section-btn .btn {
+    width: 100%;
+  }
 }
 .cid-rrcf8b6jqv {
   padding-top: 0px;
