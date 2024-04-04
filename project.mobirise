@@ -56,7 +56,7 @@
         "url": "https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800"
       }
     ],
-    "favicon": "@PROJECT_PATH@/assets/images/logotekengebied-2-128x39.png",
+    "favicon": "@PROJECT_PATH@/assets/images/1tekengebied-2logo-zalam-png-jlm-icon.ico",
     "noImageResize": null,
     "cookiesAlert": false,
     "gdpr": false,
@@ -87,7 +87,7 @@
     "site_lang": "nl",
     "publishChangesOnly": false,
     "chatbutton": {},
-    "mbrsiteDomain": "1jnycgrmqy",
+    "mbrsiteDomain": "hctouste3z",
     "witsec-mailform": false,
     "usedWebp": true
   },
