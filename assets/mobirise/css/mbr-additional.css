@@ -764,6 +764,9 @@ section.lazy-placeholder:after {
   margin: 20px 0;
   color: #232323;
 }
+.cid-rrcf8b6jqv .stats-item h3:not(.counter) {
+  color: #ffffff;
+}
 .cid-rrcf8b6jqv .container {
   min-width: 100%;
   padding: 0;
@@ -818,6 +821,9 @@ section.lazy-placeholder:after {
   margin: 20px 0;
   color: #232323;
 }
+.cid-qUmCH8Q344 .stats-item h3:not(.counter) {
+  color: #ffffff;
+}
 .cid-qUmCH8Q344 .container {
   min-width: 100%;
   padding: 0;
@@ -861,6 +867,9 @@ section.lazy-placeholder:after {
 }
 .cid-rvcsOkIGQc .stats-item:nth-child(odd) {
   background-color: #c3da32;
+}
+.cid-rvcsOkIGQc .stats-item h3:not(.counter) {
+  color: #ffffff;
 }
 .cid-rvcsOkIGQc .stats-item span {
   transition: transform 0.1s ease-in-out;
@@ -937,6 +946,13 @@ section.lazy-placeholder:after {
 .cid-uItfJMZyTD .mbr-section-title {
   margin-bottom: 0;
   color: #8e73fe;
+}
+.cid-uItfJMZyTD .openingstijden {
+  margin-top: 1rem;
+  border-spacing: 0.5rem;
+}
+.cid-uItfJMZyTD .openingstijden td {
+  padding: 0.25rem 0.75rem;
 }
 .cid-uItfJMZyTD .card-wrapper {
   position: relative;
