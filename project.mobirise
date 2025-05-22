@@ -85,7 +85,7 @@
     "spellingSwitch": true,
     "imageResize": true,
     "site_lang": "nl",
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "chatbutton": {},
     "mbrsiteDomain": "xz4zrloqvw",
     "witsec-mailform": false,
