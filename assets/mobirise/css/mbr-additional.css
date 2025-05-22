@@ -851,7 +851,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0px;
 }
 .cid-rvcsOkIGQc .stats-item:hover span {
-  color: #ffbc00;
+  color: inherit;
 }
 .cid-rvcsOkIGQc .stats-item {
   padding: 80px 20px;
@@ -862,8 +862,22 @@ section.lazy-placeholder:after {
 .cid-rvcsOkIGQc .stats-item:nth-child(odd) {
   background-color: #c3da32;
 }
-.cid-rvcsOkIGQc .stats-item > span {
-  transition: all 0.3s ease-in-out;
+.cid-rvcsOkIGQc .stats-item span {
+  transition: transform 0.1s ease-in-out;
+}
+.cid-rvcsOkIGQc .stats-item:active span {
+  transform: scale(0.95);
+}
+.cid-rvcsOkIGQc .stats-item a {
+  color: inherit !important;
+  transition: transform 0.1s ease-in-out;
+}
+.cid-rvcsOkIGQc .stats-item a:active {
+  transform: scale(0.95);
+  color: inherit !important;
+}
+.cid-rvcsOkIGQc .stats-item a:hover {
+  color: inherit !important;
 }
 .cid-rvcsOkIGQc .mbr-iconfont {
   font-size: 50px;
