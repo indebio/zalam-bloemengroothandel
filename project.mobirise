@@ -67,7 +67,7 @@
     "siteUrl": false,
     "versionFirst": "4.7.7",
     "uniqCompNum": 36,
-    "versionPublish": "6.0.1",
+    "versionPublish": "6.0.5",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "robotsSwitcher": "on",
@@ -87,7 +87,7 @@
     "site_lang": "nl",
     "publishChangesOnly": false,
     "chatbutton": {},
-    "mbrsiteDomain": "9rlwtipqda",
+    "mbrsiteDomain": "zco5ybq3pv",
     "witsec-mailform": false,
     "usedWebp": false,
     "witsec-search": false
@@ -548,11 +548,11 @@
             }
           },
           "_cid": "uItfJMZyTD",
+          "_anchor": "article03-z",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "article03-z"
+          "_params": {}
         },
         {
           "alias": false,
@@ -576,13 +576,13 @@
           },
           "_name": "image2",
           "_sourceTheme": "portfoliom4",
-          "_customHTML": "<section class=\"content4\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/09f10668-a31a-0a79-6c49-8c35bd6f4ed0.jpg-1920x1080.jpeg\" width=\"1400\" alt>\n            </div>\n    </figure>\n</section>",
+          "_customHTML": "<section class=\"content4\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/09f10668-a31a-0a79-6c49-8c35bd6f4ed0.jpg-1-1920x1080.jpeg\" width=\"1400\" alt=\"zalam openingstijden in ede bloemengroothandel\">\n            </div>\n    </figure>\n</section>",
           "_cid": "uIt6fqZXHi",
+          "_anchor": "image2-w",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image2-w"
+          "_params": {}
         },
         {
           "_name": "contacts2",
