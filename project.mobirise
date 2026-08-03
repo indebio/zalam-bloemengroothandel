@@ -64,7 +64,7 @@
     "html_before": "",
     "headbody": "",
     "botbody": "",
-    "siteUrl": false,
+    "siteUrl": "https://indebio.github.io/zalam-bloemengroothandel/",
     "versionFirst": "4.7.7",
     "uniqCompNum": 39,
     "versionPublish": "6.1.12",
@@ -76,8 +76,8 @@
     "seo-meta": "",
     "global-footer": "",
     "witsec-form-subject": "Mobirise Form",
-    "sitemapSwitcher": false,
-    "lazyLoad": false,
+    "sitemapSwitcher": true,
+    "lazyLoad": true,
     "cssOptimize": true,
     "lazyType": "placeholder",
     "pwa-switcher": true,
@@ -87,23 +87,20 @@
     "site_lang": "nl",
     "publishChangesOnly": true,
     "chatbutton": {},
-    "mbrsiteDomain": "xz4zrloqvw",
+    "mbrsiteDomain": "tw9gvffonn",
     "witsec-mailform": false,
-    "usedWebp": false,
+    "usedWebp": true,
     "witsec-search": false,
     "PWA": {
-      "enabled": true,
-      "name": "Zalam Bloemen",
-      "icon": "@PROJECT_PATH@/assets/images/1tekengebied-2logo-zalam-png-jlm-icon_1.ico",
-      "themeColor": "#ad4482"
+      "enabled": false
     }
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Zalam - Bloemengroothandel in Ede voor Bloemisten en evenementen stylisten",
-        "meta_descr": "Linktree Zalam BV Bloemengroothandel in Ede. Bloemen inkopen voor bloemisten bij de groothandel.",
+        "title": "Bloemengroothandel  | Zalam in Ede voor Bloemisten en evenementen stylisten",
+        "meta_descr": "Bloemengroothandel - Zalam BV in Ede. Bloemen inkopen voor bloemisten bij de groothandel.",
         "header_custom": "<meta name=\"keywords\" content=\"bloemengroothandel, instagram, zalam, bloemen, FIRSFLOORDECO, indebio, bloemen commisionairs\">",
         "footer_custom": "",
         "html_before": "",
@@ -130,7 +127,7 @@
             }
           },
           "_name": "image2",
-          "_customHTML": "<section class=\"content4\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"82\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ad4482\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/zalam-bloemengroothandel-groen-1820x637.png\" width=\"1400\" alt=\"logo zalam bv bloemengroothandel in ede\" title=\"logo zalam bv bloemengroothandel in ede\">\n            </div>\n    </figure>\n</section>",
+          "_customHTML": "<section class=\"content4\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"82\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ad4482\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/zalam-bloemengroothandel-groen-1820x637.webp\" width=\"1400\" alt=\"logo zalam bv bloemengroothandel in ede\" title=\"logo zalam bv bloemengroothandel in ede\">\n            </div>\n    </figure>\n</section>",
           "_cid": "qUmyUFHMzl",
           "_anchor": "image2-1",
           "_sourceTheme": "portfoliom4",
@@ -373,7 +370,7 @@
             }
           },
           "_name": "features3",
-          "_customHTML": "<section group=\"Features\" class=\"counters\" plugins=\"ViewportChecker\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"swIcon\" ckecked>\n        <select title=\"Cards Count\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n           <option value=\"3\" selected>3</option>\n           <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icon Hover\" name=\"itemHover\" value=\"#ffbc00\" condition=\"swIcon\">\n        <input type=\"color\" title=\"Block Сolor 1\" name=\"blockColor1\" value=\"#c3da32\">\n        <input type=\"color\" title=\"Block Сolor 2\" name=\"blockColor2\" value=\"#ad4482\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center align-center\">\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-class=\"{'col-md-3': cardsAmount == '4','col-md-4': cardsAmount == '3','col-md-6': cardsAmount =='2', 'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-users\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><a href=\"https://business.facebook.com/Zalambloemengroothandel\"><b><u>FACEBOOK</u></b></a></h2>\n                <h3 class=\"mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-4\">ZALAM</h3>\n            </div>\n\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-if=\"cardsAmount>1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-md-4': cardsAmount == '3',\n                             'col-md-6': cardsAmount =='2',\n                             'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-rocket\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><a href=\"https://zalam.freshportal.nl/en/page/index/index/WPA_ID/5/\"><b><u>BLOEMEN WEBSHOP</u></b></a></h2>\n                <h3 class=\" mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-4\">ZALAM</h3>\n            </div>\n\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-if=\"cardsAmount>2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-md-4': cardsAmount == '3',\n                             'col-md-6': cardsAmount =='2',\n                             'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-clock\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><a href=\"tel:+31318640577\"><b><u>TELEFOON NUMMER</u></b></a></h2>\n                <h3 class=\"mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-4\">BEL MET ZALAM &amp; FIRST FLOOR DECO</h3>\n            </div>\n\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Features\" class=\"counters\" plugins=\"ViewportChecker\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"swIcon\" ckecked>\n        <select title=\"Cards Count\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n           <option value=\"3\" selected>3</option>\n           <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icon Hover\" name=\"itemHover\" value=\"#ffbc00\" condition=\"swIcon\">\n        <input type=\"color\" title=\"Block Сolor 1\" name=\"blockColor1\" value=\"#c3da32\">\n        <input type=\"color\" title=\"Block Сolor 2\" name=\"blockColor2\" value=\"#ad4482\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center align-center\">\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-class=\"{'col-md-3': cardsAmount == '4','col-md-4': cardsAmount == '3','col-md-6': cardsAmount =='2', 'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-users\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><a href=\"https://facebook.com/zalambloemengroothandel\" class=\"text-primary\"><b><u>FACEBOOK</u></b></a></h2>\n                <h3 class=\"mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-4\">ZALAM</h3>\n            </div>\n\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-if=\"cardsAmount>1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-md-4': cardsAmount == '3',\n                             'col-md-6': cardsAmount =='2',\n                             'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-rocket\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><a href=\"https://zalam.freshportal.nl/en/page/index/index/WPA_ID/5/\"><b><u>BLOEMEN WEBSHOP</u></b></a></h2>\n                <h3 class=\" mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-4\">ZALAM</h3>\n            </div>\n\n            <div class=\"col-md-3 col-sm-6 stats-item\" mbr-if=\"cardsAmount>2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-md-4': cardsAmount == '3',\n                             'col-md-6': cardsAmount =='2',\n                             'col-md-12': cardsAmount == '1'}\">\n                <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-clock\"></span>\n                <h2 class=\"heading mbr-card-title mbr-fonts-style\" data-app-selector=\".mbr-card-title,.mbr-iconfont\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><a href=\"tel:+31318640577\"><b><u>TELEFOON NUMMER</u></b></a></h2>\n                <h3 class=\"mbr-fonts-style mbr-bold\" data-app-selector=\".counter\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-4\">BEL MET ZALAM &amp; FIRST FLOOR DECO</h3>\n            </div>\n\n\n        </div>\n    </div>\n</section>",
           "_anchor": "features3-8",
           "_isUserblock": true,
           "_sourceTheme": "portfoliom4",
